@@ -15,7 +15,7 @@ EventManagement::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = true  #changed to true for appfog configuration
+  config.assets.compile = false  #changed to false for heroku configuration
 
   # Generate digests for assets URLs
   config.assets.digest = true
