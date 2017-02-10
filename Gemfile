@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '1.9.3'
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -24,7 +24,7 @@ end
 
 # Rails 3.1 can use the latest mysql2 gem.
 group :production do
-  gem 'mysql2'
+  gem 'pg', '0.12.2'
 end
 
 group :assets do
